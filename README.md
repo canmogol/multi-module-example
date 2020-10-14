@@ -30,8 +30,7 @@ repository implementations, entities and all sorts of tests.
 "employee-service" should be considered as a complete application, its API and the Spring Boot applications 
 do not / should not contain any business logic.
 
-![Dependency Diagram](docs/Multi Module Project Diagram.png)
-
+![Dependency Diagram](https://raw.githubusercontent.com/canmogol/multi-module-example/main/docs/Multi%20Module%20Project%20Diagram.png)
 
 "employee-service" implements the "EmployeeServiceFactory" interface (abstract factory) with 
 its "DefaultEmployeeServiceFactory". Currently, this is the only implementation, but other factories can easily
